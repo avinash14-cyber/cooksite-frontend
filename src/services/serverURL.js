@@ -1,0 +1,1 @@
+export const serverURL='https://cooksite-backend1.onrender.com'
