@@ -81,7 +81,7 @@ const handleOnsubmit=async()=>{
   return (
     <div className='container-fluid w-100 vh-100 d-flex justify-content-center align-items-center ' style={{backgroundColor:'#b5e6b9ff'}}>
       {trigger?   (<div className='w-50  d-flex flex-column align-items-center justify-content-evenly position-relative' style={{maxHeight:'100-vh',backgroundColor:'#FDF6F0'}}>
-     <img src="src/assets/images/cookbook.png" className='img-fluid start-0 position-absolute w-25 h-25 top-0' alt="" />
+     <img src="/images/cookbook.png" className='img-fluid start-0 position-absolute w-25 h-25 top-0' alt="" />
      <img src={image} class="img-fluid border border-3 mt-5 mb-3 " style={{width:'250px',height:'200px'}} alt="upload image"></img>
      <input
           type="file"
@@ -103,13 +103,13 @@ const handleOnsubmit=async()=>{
       <button type="button" onClick={e=>setTrigger(false)} class="btn btn-danger">Close</button>
     </div>
    </div>):( <div className='w-50 h-75 rounded-5 text-wrap ' style={{backgroundColor:'#FFFDE7'}}>
-         <img src="src/assets/images/pan.png" className='w-25 h-25 img-fluid top-0 start-0' alt="" />
+         <img src="/images/pan.png" className='w-25 h-25 img-fluid top-0 start-0' alt="" />
 
          <p className='text-center w-100 mt-5  fs-4 fw-bolder' >"Great meals are meant to be shared, and so are the ideas behind them.
 Your recipe might be the missing spark in another cook’s adventure.
 Contribute your dish and become part of our food-loving community."</p>
 <div className='w-100 d-flex justify-content-end '>
- <img src="src/assets/images/bread (1).png" className='w-25 h-25 img-fluid end-0' alt="" />
+ <img src="/images/bread (1).png" className='w-25 h-25 img-fluid end-0' alt="" />
 </div>
 
         <div className='text-center w-100'><button type="button" onClick={e=>setTrigger(true)} class="btn btn-warning w-50 fs-4 fw-bold mx-auto">Upload Recipee</button></div>

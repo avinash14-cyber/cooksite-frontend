@@ -10,7 +10,7 @@ const Landing = () => {
       <div className="row  vh-100 w-75 border d-flex justify-content-center ">
         <div className="col-4 shadow position-relative  p-2  border text-wrap text-center" style={{ height: '350px', backgroundColor: 'white' }}>
           <h2 className='text-center'>Add your recipee</h2>
-          <img src="src/assets/images/Woman_cutting_vegetables_for_cooking___Premium_Vector-removebg-preview.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
+          <img src="/images/Woman_cutting_vegetables_for_cooking___Premium_Vector-removebg-preview.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
 
           <Link to={'/addrecipee' } className='text-decoration-none'>
             <button type="button" class="btn btn-outline-primary mx-auto mb-5 d-flex flex-column w-25 align-items-center justify-content-center   fs-5" style={{ height: '25px' }} >
@@ -25,7 +25,7 @@ const Landing = () => {
         <div className="col-1"></div>
         <div className="col-4 shadow position-relative  p-2  border text-wrap text-center" style={{ height: '350px', backgroundColor: 'white' }}>
           <h2 className='text-center'>View your recipee</h2>
-          <img src="src/assets/images/editrecipe.png" alt="" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} />
+          <img src="/images/editrecipe.png" alt="" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} />
           <Link to={'/viewrecipee'} className='text-decoration-none'>
             <button type="button" class="btn btn-outline-primary mx-auto mb-5 d-flex flex-column w-25 align-items-center justify-content-center   fs-5" style={{ height: '25px' }} >
               VIEW
@@ -36,7 +36,7 @@ const Landing = () => {
           </div>
         </div>
         <div className="col-4 shadow position-relative  p-2  border text-wrap text-center  " style={{ height: '350px', backgroundColor: 'white' }}>
-          <img src="src/assets/images/book.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
+          <img src="/images/book.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
           <Link to={'/editrecipee'} className='text-decoration-none'>
             <button type="button" class="btn btn-outline-primary mx-auto mb-5 d-flex flex-column w-25 align-items-center justify-content-center   fs-5" style={{ height: '25px' }} >
               EDIT
@@ -49,7 +49,7 @@ const Landing = () => {
         <div className="col-1"></div>
         <div className="col-4 shadow position-relative  p-2  border text-wrap text-center" style={{ height: '350px', backgroundColor: 'white' }}>
 
-            <img src="src/assets/images/remove.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
+            <img src="/images/remove.png" className='img-fluid w-100 h-75' style={{ objectFit: "contain" }} alt="" />
           <Link to={'/deleterecipee'} className='text-decoration-none'>
             <button type="button" class="btn btn-outline-primary mx-auto mb-5 d-flex flex-column w-25 align-items-center justify-content-center   fs-5" style={{ height: '25px' }} >
               DELETE
