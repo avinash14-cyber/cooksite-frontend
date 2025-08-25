@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { deleteRecipeeAPI, getRecipeeAPI } from '../services/allAPIs'
+import Swal from 'sweetalert2'
 
 const DeleteRecipee = () => {
     const [viewrecipee,setViewrecipee]=useState([])
