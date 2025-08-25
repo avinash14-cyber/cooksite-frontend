@@ -24,13 +24,14 @@ const DeleteRecipee = () => {
         try{
             await deleteRecipeeAPI(deleteelement.id)
             setDeleteRecipee(false)
-             Swal.fire({
+             
+            handleresipee()
+            Swal.fire({
               title: 'Success!',
               text: 'Recipee deleted successfully',
               icon: 'success',
               confirmButtonText: 'Okay'
             })
-            handleresipee()
         }
         catch(err){
             console.log(err);
